@@ -1,7 +1,7 @@
 export function Competencies() {
   return (
-    <section className="grow bg-white dark:bg-gray-900">
-      <div className="container px-6 py-12 mx-auto">
+    <section className="grow">
+      <div className="mx-auto max-w-6xl px-6 py-16">
         <h1 className="text-2xl font-semibold text-gray-800 lg:text-3xl dark:text-white">
           Áreas de compentecia
         </h1>
@@ -48,8 +48,8 @@ export function Competencies() {
             </h2>
           </div>
 
-          <section className="container bg-white dark:bg-gray-900">
-            <div className="container px-6 mx-auto">
+          <section className="min-w-0 flex-1">
+            <div className="px-6">
               <div className="mt-8 space-y-8 lg:mt-2">
                 <h2
                   id="technical competencies"
@@ -60,7 +60,7 @@ export function Competencies() {
 
                 <div
                   id="backend"
-                  className="p-8 bg-gray-100 rounded-lg dark:bg-gray-800"
+                  className="p-8 bg-white rounded-2xl ring-1 ring-black/5 shadow-sm dark:bg-gray-900 dark:ring-white/10"
                 >
                   <h3 className="font-semibold text-gray-700 dark:text-white">
                     Backend
@@ -81,7 +81,7 @@ export function Competencies() {
 
                 <div
                   id="database"
-                  className="p-8 bg-gray-100 rounded-lg dark:bg-gray-800"
+                  className="p-8 bg-white rounded-2xl ring-1 ring-black/5 shadow-sm dark:bg-gray-900 dark:ring-white/10"
                 >
                   <h3 className="font-semibold text-gray-700 dark:text-white">
                     Bases de datos
@@ -102,7 +102,7 @@ export function Competencies() {
 
                 <div
                   id="architecture"
-                  className="p-8 bg-gray-100 rounded-lg dark:bg-gray-800"
+                  className="p-8 bg-white rounded-2xl ring-1 ring-black/5 shadow-sm dark:bg-gray-900 dark:ring-white/10"
                 >
                   <h3 className="font-semibold text-gray-700 dark:text-white">
                     Arquitectura
@@ -121,7 +121,7 @@ export function Competencies() {
 
                 <div
                   id="frontend"
-                  className="p-8 bg-gray-100 rounded-lg dark:bg-gray-800"
+                  className="p-8 bg-white rounded-2xl ring-1 ring-black/5 shadow-sm dark:bg-gray-900 dark:ring-white/10"
                 >
                   <h3 className="font-semibold text-gray-700 dark:text-white">
                     Frontend
@@ -153,7 +153,7 @@ export function Competencies() {
                   Herramientas y tecnologías
                 </h2>
 
-                <div className="p-8 bg-gray-100 rounded-lg dark:bg-gray-800 flex flex-col items-center">
+                <div className="p-8 bg-white rounded-2xl ring-1 ring-black/5 shadow-sm dark:bg-gray-900 dark:ring-white/10 flex flex-col items-center">
                   <h3 className="font-semibold text-gray-700 dark:text-white">
                     Backend
                   </h3>
@@ -342,7 +342,7 @@ export function Competencies() {
                   </div>
                 </div>
 
-                <div className="p-8 bg-gray-100 rounded-lg dark:bg-gray-800 flex flex-col items-center">
+                <div className="p-8 bg-white rounded-2xl ring-1 ring-black/5 shadow-sm dark:bg-gray-900 dark:ring-white/10 flex flex-col items-center">
                   <h3 className="font-semibold text-gray-700 dark:text-white">
                     Bases de datos
                   </h3>
@@ -526,7 +526,7 @@ export function Competencies() {
                   </div>
                 </div>
 
-                <div className="p-8 bg-gray-100 rounded-lg dark:bg-gray-800 flex flex-col items-center">
+                <div className="p-8 bg-white rounded-2xl ring-1 ring-black/5 shadow-sm dark:bg-gray-900 dark:ring-white/10 flex flex-col items-center">
                   <h3 className="font-semibold text-gray-700 dark:text-white">
                     Frontend
                   </h3>
@@ -633,7 +633,7 @@ export function Competencies() {
                   </div>
                 </div>
 
-                <div className="p-8 bg-gray-100 rounded-lg dark:bg-gray-800 flex flex-col items-center">
+                <div className="p-8 bg-white rounded-2xl ring-1 ring-black/5 shadow-sm dark:bg-gray-900 dark:ring-white/10 flex flex-col items-center">
                   <h3 className="font-semibold text-gray-700 dark:text-white">
                     Otras herramientas
                   </h3>
@@ -731,7 +731,7 @@ export function Competencies() {
                   Habilidades profesionales
                 </h2>
 
-                <div className="p-8 bg-gray-100 rounded-lg dark:bg-gray-800">
+                <div className="p-8 bg-white rounded-2xl ring-1 ring-black/5 shadow-sm dark:bg-gray-900 dark:ring-white/10">
                   <p className="text-sm text-gray-500 dark:text-gray-300">
                     - Resolución de problemas
                     <br />
